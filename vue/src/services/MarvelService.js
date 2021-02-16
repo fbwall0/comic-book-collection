@@ -4,10 +4,8 @@ const http = axios.create({
   baseURL: "https://gateway.marvel.com/v1/public/"
 });
 
-// backupt api hash :  ts=prankster&apikey=06a27e3408b18518997788e672bb31bd&hash=43417035701626dd872425850ec06dae
-
 export default {
-    hash: 'ts=thesoer&apikey=e3f13dcf4ff77039ddccc9f959b733d9&hash=3fefa0949426eff3dc9adad144d10133',
+    hash: 'ts=teelevator&apikey=70b4068dd49a2f9d32a6d6743bef6fce&hash=c94d31205708f6fe0a1742c3c1f84744',
 
     searchComic(title, issueNumber) {
         return http.get(`comics?titleStartsWith=${title}&issueNumber=${issueNumber}&${this.hash}`);
