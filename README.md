@@ -24,3 +24,7 @@ Utilizes the official Marvel Comics API to populate data about comics and lets y
 7. Follow the resulting localhost link.
 
 8. Enjoy
+
+
+
+<a href="http://marvel.com\">Data provided by Marvel. © 2021 MARVEL</a>
