@@ -6,6 +6,8 @@ Implements secure login and database storage to create personal collections of M
 
 Utilizes the official Marvel Comics API to populate data about comics and lets you add those comics to your own collections.
 
+The API only allows 3000 pull per day, so if comics are not loading and there is a 429 error, that is the reason
+
 
 ## Setup
 
